@@ -84,7 +84,7 @@
   word-spacing: 90%;
 }
 
-/*Команда "PostCSS Sorting: run" переносит "all: unset;" вниз, из за чего он каждый раз переопределяет верхние стили*/
+/*Команда: "PostCSS Sorting: run" переносит "all: unset;" вниз, из за чего он каждый раз переопределяет верхние стили*/
 .submit__bet {
   all: unset;
   border: 1px solid rgba(255, 255, 255, 1);
