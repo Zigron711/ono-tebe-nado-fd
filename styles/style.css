@@ -265,10 +265,6 @@ address {
   list-style: none;
 }
 
-.menu__list-text-footer {
-  text-align: center;
-}
-
 .networks__list {
   display: flex;
   justify-self: end;
