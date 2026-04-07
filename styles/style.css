@@ -17,12 +17,12 @@
   list-style-type: circle;
 }
 
-.menu__item-first { 
-  list-style: none; 
+.menu__item-first {
+  list-style: none;
 }
 
-.menu__list-active { 
-  text-decoration: none; 
+.menu__list-active {
+  text-decoration: none;
 }
 
 .main__logo {
@@ -44,7 +44,6 @@ address {
 
 .cover {
   position: relative;
-  z-index: -2;
   min-height: 757px;
   margin-bottom: 180px;
   padding: 164px 50px 47px;
@@ -60,13 +59,15 @@ address {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
   height: 100%;
   background-color: rgb(0 0 0 / 0.6);
 }
 
 .cover__title {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -76,19 +77,21 @@ address {
   letter-spacing: 30px;
 }
 
-.cover__title-primary { 
+.cover__title-primary {
   align-self: flex-start;
 }
 
-.cover__title-secondary { 
+.cover__title-secondary {
   margin-left: 330.5px;
 }
 
-.cover__title-tertiary { 
+.cover__title-tertiary {
   margin-left: 613px;
 }
 
 .description {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,8 +113,8 @@ address {
   cursor: pointer;
 }
 
-.lots{ 
-  margin: 0 24px 120px; 
+.lots {
+  margin: 0 24px 120px;
 }
 
 .lots__title {
@@ -133,7 +136,6 @@ address {
 
 .lots__item {
   position: relative;
-  z-index: -2;
   width: 334px;
   min-height: 596px;
   background-repeat: no-repeat;
@@ -141,16 +143,16 @@ address {
   background-size: cover;
 }
 
-.lots__item-primary { 
-  background-image: url('../images/card-lot-01.jpg'); 
+.lots__item-primary {
+  background-image: url('../images/card-lot-01.jpg');
 }
 
-.lots__item-secondary { 
-  background-image: url('../images/card-lot-02.jpg'); 
+.lots__item-secondary {
+  background-image: url('../images/card-lot-02.jpg');
 }
 
-.lots__item-tertiary { 
-  background-image: url('../images/card-lot-03.jpg'); 
+.lots__item-tertiary {
+  background-image: url('../images/card-lot-03.jpg');
 }
 
 .lot__link {
@@ -164,6 +166,8 @@ address {
 }
 
 .lot__content {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -198,7 +202,7 @@ address {
   margin: 0 24px 180px 24px;
 }
 
-.logo__column { 
+.logo__column {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +253,7 @@ address {
   font-size: 18px;
 }
 
-.contacts__footer{
+.contacts__footer {
   justify-self: start;
   min-width: 265px;
 }
