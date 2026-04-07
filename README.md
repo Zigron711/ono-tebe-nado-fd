@@ -1,1 +1,1 @@
-https://github.com/Zigron711/ono-tebe-nado-fd#
+https://github.com/Zigron711/ono-tebe-nado-fd
