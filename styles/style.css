@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
   padding: 90px 50px 92px 52px;
 }
 
@@ -17,7 +16,7 @@
   list-style-type: circle;
 }
 
-.menu__item-first {
+.menu__item-primary {
   list-style: none;
 }
 
@@ -82,11 +81,13 @@ address {
 }
 
 .cover__title-secondary {
-  margin-left: 330.5px;
+  align-self: center;
+  margin-right: -0.3em;
 }
 
 .cover__title-tertiary {
-  margin-left: 613px;
+  align-self: flex-end;
+  margin-right: -0.3em;
 }
 
 .description {
